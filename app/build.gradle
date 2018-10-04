@@ -27,4 +27,9 @@ android {
 dependencies {
     implementation project(':feature')
     implementation project(':base')
+    compile 'org.osmdroid:osmdroid-android:6.0.2'
+    compile 'org.osmdroid:osmdroid-wms:6.0.2'
+    compile 'org.osmdroid:osmdroid-mapsforge:6.0.2'
+    compile 'org.osmdroid:osmdroid-geopackage:6.0.2'
+    compile 'org.osmdroid:osmdroid-third-party:6.0.2'
 }
